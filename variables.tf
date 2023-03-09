@@ -1,5 +1,10 @@
 # Use variables to customize the deployment
 
+variable subscriptionId {}
+variable tenantId {}
+variable clientId {}
+variable clientSecret {}
+
 variable "root_id" {
   type    = string
   default = "myorg"
