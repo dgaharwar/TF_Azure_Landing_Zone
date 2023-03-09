@@ -8,7 +8,13 @@ terraform {
       version = ">= 3.19.0"
     }
   }
+  required_providers {
+    azurecaf = {
+      source = "aztfmod/azurecaf"
+    }
+  }
 }
+
 
 # provider "azurerm" {
 #   features {}
