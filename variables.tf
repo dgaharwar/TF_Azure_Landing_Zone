@@ -7,12 +7,10 @@ variable clientSecret {}
 
 variable "root_id" {
   type    = string
-  default = "dgorg"
 }
 
 variable "root_name" {
   type    = string
-  default = "DG Organization"
 }
 
 variable "deploy_management_resources" {
