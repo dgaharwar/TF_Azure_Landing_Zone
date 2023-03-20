@@ -7,12 +7,12 @@ variable clientSecret {}
 
 variable "root_id" {
   type    = string
-  default = "myorg"
+  default = "dgorg"
 }
 
 variable "root_name" {
   type    = string
-  default = "My Organization"
+  default = "DG Organization"
 }
 
 variable "deploy_management_resources" {
@@ -27,7 +27,7 @@ variable "log_retention_in_days" {
 
 variable "security_alerts_email_address" {
   type    = string
-  default = "cuong.dq@csc-jsc.com"
+  default = "deeps12luv@gmail.com"
 }
 
 variable "management_resources_location" {
