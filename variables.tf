@@ -25,12 +25,10 @@ variable "log_retention_in_days" {
 
 variable "security_alerts_email_address" {
   type    = string
-  default = "deeps12luv@gmail.com"
 }
 
 variable "management_resources_location" {
   type    = string
-  default = "eastus"
 }
 
 variable "management_resources_tags" {
